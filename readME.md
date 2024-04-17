@@ -12,4 +12,7 @@ This is a bot similar to MoonFN or Scout Bot that is used to gain info on a Fort
 - For emails typically you need a huge DB of gamertag:email from a vulnerability from 2021 where you could find a users email from their xuid, I WILL NOT BE POSTING THIS FIND YOU OWN DB. to make it simple i just made it sort through a txt file 
 - For receipt it just generates an HTML file with the purchase date opens it on a webdriver and takes a screenshot
 
+# example
+![note the email is a sub email i added not the real email](IMG_3620.png)
+
 # please for the love of god dont sell this
