@@ -15,4 +15,6 @@ This is a bot similar to MoonFN or Scout Bot that is used to gain info on a Fort
 # example
 ![note the email is a sub email i added not the real email](IMG_3620.png)
 
+
+there are probably a shit ton of bugs in this because i do not give a shit about this bot just something i made when i was bored
 # please for the love of god dont sell this
