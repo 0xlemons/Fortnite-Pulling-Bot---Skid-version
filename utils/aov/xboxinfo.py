@@ -1,6 +1,6 @@
 import requests
 url = "https://xbl.io/api/v2/search/"
-api_key = "dc46de61-dbba-4471-91f6-577ed1a0bc3"
+api_key = "api key here"
 headers = {
     "X-Authorization": api_key
 }
