@@ -69,10 +69,10 @@ def proxies(username, password, endpoint, port):
 
     return extension
 
-username = 'retrakksQ'
-password = 't1eeq8wNQX_country-us_state-california'
-endpoint = 'geo.spyderproxy.com'
-port = '12321'
+username = ''
+password = ''
+endpoint = ''
+port = ''
 
 
 
