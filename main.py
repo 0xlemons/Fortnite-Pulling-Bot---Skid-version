@@ -44,4 +44,4 @@ async def xbox_aov(ctx, username):
     embed = Embed(color=0x0099ff, title=f'AOV For {username}', description=f":globe_with_meridians: **IP & Location**\n```{ipinfo}```\n:link: **Linked Accounts**\n```Epic: {epic}\nXBL: {username} / {xuid}```\n:e_mail: **Possible Emails**\n```{email}```\n:fire: **Fried Check**```\nFried Status : {fried}```\n:warning: **Activity Status**\n```Too lazy to code just skid off of tracker or something```\n:earth_americas:  **STW Status**```Owned: {unlocked}\nPurchase Date:{month}\{day}\{year}```\n:receipt: **Receipt**\n```Im too lazy to code this, if you cant figure out how u fr got -1 braincell```\n:speaking_head: **Profile Link**\n```https://gamerdvr.com/player/{username}```")
     await msg.edit(content='', embed=embed)
     que = que - 1
-client.run('')
+client.run('bot token')
