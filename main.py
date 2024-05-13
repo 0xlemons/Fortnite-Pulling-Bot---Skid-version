@@ -34,10 +34,8 @@ async def xbox_aov(ctx, username):
         ipinfo=f'IP : {ip}\nRegion : {region}\nCountry : {country}\nCity : {city}\nZipCode : {zipCode}\nLatitude : {lat}\nLongitude : {lon}\nISP : {isp}'
     xuid = xboxinfo.xuid(username)
     print (xuid)
-    _, _, year, _, = stw.get_achievement_data(key, xuid)
-    _, month, _, _, = stw.get_achievement_data(key, xuid)
-    _, _, _, day = stw.get_achievement_data(key, xuid)
-    unlocked, _, _, _, = stw.get_achievement_data(key, xuid)
+    unlocked, month, year, day, = stw.get_achievement_data(key, xuid)
+
     email = mail.findmail(username, 'aov/xbox30iso.txt')
     epic = linkedaccounts.findepic(username)
     fried = friedcheck.fried(username)
